@@ -1,0 +1,23 @@
+Require commands in laravel :-
+
+For creating Request Class :-
+
+php artisan make:request LoginRequest
+
+For creating Resource Class :-
+
+php artisan make:resource UserRoleResource
+
+For creating Factory class in laravel command :-
+
+php artisan make:factory ExpenseIncomeFactory --model=ExpenseIncome
+
+
+For creating Seeder class in laravel command :-
+
+php artisan make:seeder RoleSeeder
+
+
+Below command will generate model,migrations,controller,resources,factory & seeder with all necessary functions like index,show,update,destroy
+
+php artisan make:model Appointment -mcrfs
